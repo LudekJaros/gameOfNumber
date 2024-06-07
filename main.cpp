@@ -12,5 +12,10 @@ int main(int argc, char *argv[]){
 	secretNumber = rand()%5+1; // random from 1 to 5
 	cout << "Enter your type for a secret number: ";
 	cin >> playersNumber;
+	if(playersNumber == secretNumber){
+		cout << "You won!" << endl;
+	} else {
+		cout << "You lost!" << endl;
+	}
 	return 0;
 }
