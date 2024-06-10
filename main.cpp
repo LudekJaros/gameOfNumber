@@ -14,8 +14,6 @@ int main(int argc, char *argv[]){
 	cin >> playersNumber;
 	if(playersNumber == secretNumber){
 		cout << "You won!" << endl;
-	} else {
-		cout << "You lost!" << endl;
-	}
+	} else cout << "You lost!" << endl;
 	return 0;
 }
