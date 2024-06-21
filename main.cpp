@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
 	cout << "Enter your type for a secret number: ";
 	cin >> playersNumber;
 	if(playersNumber == secretNumber){
-		cout << "You won!" << endl;
-	} else cout << "You lost!" << endl;
+		cout << GREEN << "You won!" << WHITE << endl;
+	} else cout << RED << "You lost!" << WHITE << endl;
 	return 0;
 }
